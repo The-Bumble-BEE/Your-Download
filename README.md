@@ -8,5 +8,6 @@ An important part of this endeavor is to simplify and make copy-compatible progr
 # Version 0.1
 The first parts of the download center are ready and can be tested. The backend for installation must now be created.
 ## Todo:
--build the backend for installation
--Add more programs
+-build the backend for installation \n
+-Add more programs \n
+-Create an installer
