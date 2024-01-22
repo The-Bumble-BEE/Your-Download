@@ -1,4 +1,4 @@
 Debian-libarys:
-    npm install -g nativefier
+    sudo apt install chromium-browser
 
 pip-libarys:
