@@ -1,4 +1,4 @@
 Debian-libarys:
-    sudo apt install chromium-browser
+    sudo apt install chromium-browser #Is used for creating Webapps
 
 pip-libarys:
