@@ -1,0 +1,4 @@
+Debian-libarys:
+    npm install -g nativefier
+
+pip-libarys:
