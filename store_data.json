@@ -1,0 +1,26 @@
+ [
+    {
+        "id": 1,
+        "name": "Whatsapp",
+        "Beschreibung": "Schreibe mit deinen Freunden",
+        "state": "create_webapp",
+        "Install_Befehl": "https://web.whatsapp.com/",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/200px-WhatsApp.svg.png"
+    },
+    {
+        "id": 2,
+        "name": "Libre Office",
+        "Beschreibung": "Das Office Tool für alle Fälle",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install libreoffice libreoffice-l10n-de libreoffice-help-de -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/LibreOffice_icon_3.3.1_48_px.svg/80px-LibreOffice_icon_3.3.1_48_px.svg.png"
+    },
+    {
+        "id": 3,
+        "name": "Microsoft Office 365",
+        "Beschreibung": "Anwendungen wie Word, Excel, PowerPoint, Outlook und andere, die in Echtzeit aktualisiert werden. Benutzer haben immer Zugriff auf die neuesten Funktionen und Verbesserungen.",
+        "state": "vine",
+        "Install_Befehl": "vine",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Microsoft_365_%282022%29.svg/227px-Microsoft_365_%282022%29.svg.png"
+    }
+]
