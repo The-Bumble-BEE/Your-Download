@@ -22,6 +22,14 @@
         "state": "vine",
         "Install_Befehl": "vine",
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Microsoft_365_%282022%29.svg/227px-Microsoft_365_%282022%29.svg.png"
+    },
+    {
+        "id": 4,
+        "name": "Empty",
+        "Beschreibung": "",
+        "state": "",
+        "Install_Befehl": "",
+        "Image": ""
     }
 ]
 
