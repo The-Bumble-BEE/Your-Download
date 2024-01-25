@@ -29,7 +29,7 @@
         "Beschreibung": "Ein fortgeschrittenes Bildbearbeitungsprogramm",
         "state": "apt-get",
         "Install_Befehl": ["sudo apt-get install gimp -y"],
-        "Image": https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/316px-The_GIMP_icon_-_gnome.svg.png"
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/316px-The_GIMP_icon_-_gnome.svg.png"
     },
     {
         "id": 5,
