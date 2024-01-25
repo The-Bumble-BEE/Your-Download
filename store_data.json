@@ -1,4 +1,4 @@
- [
+[
     {
         "id": 1,
         "name": "Whatsapp",
@@ -13,23 +13,111 @@
         "Beschreibung": "Das Office Tool für alle Fälle",
         "state": "apt-get",
         "Install_Befehl": ["sudo apt-get install libreoffice libreoffice-l10n-de libreoffice-help-de -y"],
-        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/LibreOffice_icon_3.3.1_48_px.svg/80px-LibreOffice_icon_3.3.1_48_px.svg.png"
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo-libreoffice.svg/1699px-Logo-libreoffice.svg.png"
     },
     {
         "id": 3,
-        "name": "Microsoft Office 365",
-        "Beschreibung": "Anwendungen wie Word, Excel, PowerPoint, Outlook und andere, die in Echtzeit aktualisiert werden. Benutzer haben immer Zugriff auf die neuesten Funktionen und Verbesserungen.",
-        "state": "vine",
-        "Install_Befehl": "vine",
-        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Microsoft_365_%282022%29.svg/227px-Microsoft_365_%282022%29.svg.png"
+        "name": "VLC Media Player",
+        "Beschreibung": "Ein vielseitiger Media-Player",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install vlc -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/VLC_Icon.svg/529px-VLC_Icon.svg.png"
     },
     {
         "id": 4,
-        "name": "Empty",
-        "Beschreibung": "",
-        "state": "",
-        "Install_Befehl": "",
+        "name": "GIMP",
+        "Beschreibung": "Ein fortgeschrittenes Bildbearbeitungsprogramm",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install gimp -y"],
+        "Image": https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/316px-The_GIMP_icon_-_gnome.svg.png"
+    },
+    {
+        "id": 5,
+        "name": "Firefox",
+        "Beschreibung": "Ein freier und leistungsstarker Webbrowser",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install firefox -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Firefox_logo%2C_2017.svg/2048px-Firefox_logo%2C_2017.svg.png"
+    },
+    {
+        "id": 6,
+        "name": "Thunderbird",
+        "Beschreibung": "Ein kostenloser E-Mail-Client",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install thunderbird -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Thunderbird_Logo%2C_2018.svg/1042px-Thunderbird_Logo%2C_2018.svg.png"
+    },
+    {
+        "id": 7,
+        "name": "Audacity",
+        "Beschreibung": "Eine leistungsfähige Audio-Editing-Software",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install audacity -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Audacity_Logo.svg/1200px-Audacity_Logo.svg.png"
+    },
+    {
+        "id": 8,
+        "name": "Steam",
+        "Beschreibung": "Plattform für PC-Spiele",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install steam -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png"
+    },
+    {
+        "id": 9,
+        "name": "Docker",
+        "Beschreibung": "Eine Plattform für Containerisierung",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install docker.io -y"],
         "Image": ""
+    },
+    {
+        "id": 10,
+        "name": "Git",
+        "Beschreibung": "Ein verteiltes Versionskontrollsystem",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install git -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png"
+    },
+    {
+        "id": 11,
+        "name": "Visual Studio Code",
+        "Beschreibung": "Ein leistungsfähiger Code-Editor",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install code -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+    },
+    {
+        "id": 12,
+        "name": "Node.js",
+        "Beschreibung": "Eine JavaScript-Laufzeitumgebung",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install nodejs -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png"
+    },
+    {
+        "id": 13,
+        "name": "Python",
+        "Beschreibung": "Eine populäre Programmiersprache",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install python3 -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+    },
+    {
+        "id": 14,
+        "name": "Apache Server",
+        "Beschreibung": "Eine weit verbreitete Webserver-Software",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install apache2 -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Apache_HTTP_server_logo_%282019-present%29.svg/2560px-Apache_HTTP_server_logo_%282019-present%29.svg.png"
+    },
+    {
+        "id": 15,
+        "name": "MySQL",
+        "Beschreibung": "Ein populäres relationales Datenbankmanagementsystem",
+        "state": "apt-get",
+        "Install_Befehl": ["sudo apt-get install mysql-server -y"],
+        "Image": "https://upload.wikimedia.org/wikipedia/de/thumb/d/dd/MySQL_logo.svg/2560px-MySQL_logo.svg.png"
     }
 ]
 
