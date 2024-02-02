@@ -7,7 +7,7 @@ An important part of this endeavor is to simplify and make copy-compatible progr
 
 # Installer for Version 0.2 is live!
 A first installer for version 0.2 of the Y-Store. If there are any bugs please report them, then they can be removed. It must be ensured that pip and Pyhton work! The program is then located in /BumbleBee which is created. I will improve it as it is not perfect yet. 
-### Your BumbleBee
+##### Your BumbleBee
 
 # Version 0.2
 A first installer for version 0.2 of the Y-Store. If there are any bugs please report them, then they can be removed. It must be ensured that pip and Pyhton work! The program is then located in /BumbleBee which is created. I will improve it as it is not perfect yet
