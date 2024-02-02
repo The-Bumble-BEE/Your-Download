@@ -25,8 +25,8 @@ sudo wget -O Your-Store-main.zip "https://github.com/The-Bumble-BEE/Your-Store/a
 echo "Installing..."
 sudo unzip Your-Store-main.zip 'Your-Store-main/Your-Store-V.0.2/*' -d /home/$USER/BumbleBee
 echo "Installing..."
-sudo chmod -R 777 BumbleBee
-echo "Installing...."
 sudo rm Your-Store-main.zip
+cd ..
 echo "Installing...."
+sudo chmod -R 777 BumbleBee
 read -p "Installation finished! Press Enter to close this window"
