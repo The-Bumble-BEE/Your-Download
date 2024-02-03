@@ -1,5 +1,13 @@
 [
     {
+        "id": 17,
+        "name": "Discord",
+        "Beschreibung": ["Discord is a communication platform designed for creating communities and fostering real-time interaction among users. Originally developed for gamers, Discord has since expanded its user base to include various communities, interest groups, and professional organizations.Discord is a communication platform designed for creating communities and fostering real-time interaction among users. Originally developed for gamers, Discord has since expanded its user base to include various communities, interest groups, and professional organizations."],
+        "state": "apt-get",
+        "Install_Befehl": [wget -O discord.deb "https://discord.com/api/download?platform=linux&format=deb, sudo dpkg -i discord.deb, sudo apt install -f],
+        "Image": "" 
+    },
+    {
         "id": 16,
         "name": "DeepL",
         "Beschreibung": ["DeepL is a machine translation system based on artificial intelligence (AI). It was developed by the German company DeepL GmbH and offers a highly sophisticated translation of texts in different languages. The system uses a deep neural network to capture the meaning of sentences and texts and generate high-quality translations. Compared to many other machine translation services, DeepL is characterized by its high precision and natural expression. It has received particularly positive reviews for the translation of complex and demanding texts. DeepL supports numerous languages and is used by various organizations and individuals worldwide to obtain efficient and accurate translations. In addition to the free service, DeepL also offers paid premium subscriptions with additional features and higher usage quotas."],
