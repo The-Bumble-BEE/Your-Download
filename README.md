@@ -5,6 +5,9 @@ Preface: The basic idea is to make Linux / Debian as simple as Windows or Mac OS
 
 An important part of this endeavor is to simplify and make copy-compatible programs that are used by thousands of people every day. Especially the easy installation of non-Linux programs is an important part.
 
+##Programs that can be installed
+DeepL (Website), WhatsApp (Website), Audacity (Native), Steam (Native), Docker (Native), git (Native), Node Js (Native)
+
 # Installer for Version 0.2 is live!
 A first installer for version 0.2 of the Y-Store. If there are any bugs please report them, then they can be removed. It must be ensured that pip and Pyhton work! The program is then located in /home/"YOUR USER"/BumbleBee which is created. I will improve it as it is not perfect yet. 
 ##### Your BumbleBee
@@ -16,6 +19,5 @@ A first installer for version 0.2 of the Y-Store. If there are any bugs please r
 The first parts of the download center are ready and can be tested. The backend for installation must now be created.
 https://github.com/The-Bumble-BEE/Your-Store/tree/main/Your-Store-V.0.1
 ## Todo:
--build the backend for installation \n
--Add more programs \n
--Create an installer
+-Add more programs 
+
