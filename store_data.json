@@ -1,13 +1,6 @@
 [
     {
-        "id": 17,
-        "name": "Discord",
-        "Beschreibung": ["Discord is a communication platform designed for creating communities and fostering real-time interaction among users. Originally developed for gamers, Discord has since expanded its user base to include various communities, interest groups, and professional organizations.Discord is a communication platform designed for creating communities and fostering real-time interaction among users. Originally developed for gamers, Discord has since expanded its user base to include various communities, interest groups, and professional organizations."],
-        "state": "apt-get",
-        "Install_Befehl": ["wget -O discord.deb 'https://discord.com/api/download?platform=linux&format=deb'", "sudo dpkg -i discord.deb", "sudo apt install -f"],
-        "Image": "" 
-    },
-    {
+        "category": "Office",
         "id": 16,
         "name": "DeepL",
         "Beschreibung": ["DeepL is a machine translation system based on artificial intelligence (AI). It was developed by the German company DeepL GmbH and offers a highly sophisticated translation of texts in different languages. The system uses a deep neural network to capture the meaning of sentences and texts and generate high-quality translations. Compared to many other machine translation services, DeepL is characterized by its high precision and natural expression. It has received particularly positive reviews for the translation of complex and demanding texts. DeepL supports numerous languages and is used by various organizations and individuals worldwide to obtain efficient and accurate translations. In addition to the free service, DeepL also offers paid premium subscriptions with additional features and higher usage quotas."],
@@ -16,6 +9,7 @@
         "Image": "https://avatars.githubusercontent.com/u/83310993?s=200&v=4" 
     },
     {
+        "category": "Communication",
         "id": 1,
         "name": "Whatsapp",
         "Beschreibung": "Schreibe mit deinen Freunden",
@@ -24,6 +18,7 @@
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/200px-WhatsApp.svg.png"
     },
     {
+        "category": "Office",
         "id": 2,
         "name": "Libre Office",
         "Beschreibung": "Das Office Tool für alle Fälle",
@@ -31,7 +26,8 @@
         "Install_Befehl": ["sudo apt-get install libreoffice libreoffice-l10n-de libreoffice-help-de -y"],
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo-libreoffice.svg/1699px-Logo-libreoffice.svg.png"
     },
-    {
+    {   
+        "category": "Multimedia",
         "id": 3,
         "name": "VLC Media Player",
         "Beschreibung": "Ein vielseitiger Media-Player",
@@ -39,7 +35,8 @@
         "Install_Befehl": ["sudo apt-get install vlc -y"],
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/VLC_Icon.svg/529px-VLC_Icon.svg.png"
     },
-    {
+    {   
+        "category": "Creativity",
         "id": 4,
         "name": "GIMP",
         "Beschreibung": "Ein fortgeschrittenes Bildbearbeitungsprogramm",
@@ -48,6 +45,7 @@
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/316px-The_GIMP_icon_-_gnome.svg.png"
     },
     {
+        "category": "Browser",
         "id": 5,
         "name": "Firefox",
         "Beschreibung": "Ein freier und leistungsstarker Webbrowser",
@@ -55,7 +53,8 @@
         "Install_Befehl": ["sudo apt-get install firefox -y"],
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Firefox_logo%2C_2017.svg/2048px-Firefox_logo%2C_2017.svg.png"
     },
-    {
+    {   
+        "category": "Office",
         "id": 6,
         "name": "Thunderbird",
         "Beschreibung": "Ein kostenloser E-Mail-Client",
@@ -64,6 +63,7 @@
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Thunderbird_Logo%2C_2018.svg/1042px-Thunderbird_Logo%2C_2018.svg.png"
     },
     {
+        "category": "Creativity",
         "id": 7,
         "name": "Audacity",
         "Beschreibung": "Eine leistungsfähige Audio-Editing-Software",
@@ -72,6 +72,7 @@
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Audacity_Logo.svg/1200px-Audacity_Logo.svg.png"
     },
     {
+        "category": "Games",
         "id": 8,
         "name": "Steam",
         "Beschreibung": "Plattform für PC-Spiele",
@@ -80,6 +81,7 @@
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png"
     },
     {
+        "category": "Coding",
         "id": 9,
         "name": "Docker",
         "Beschreibung": "Eine Plattform für Containerisierung",
@@ -88,6 +90,7 @@
         "Image": ""
     },
     {
+        "category": "Coding",
         "id": 10,
         "name": "Git",
         "Beschreibung": "Ein verteiltes Versionskontrollsystem",
@@ -96,6 +99,7 @@
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png"
     },
     {
+        "category": "Coding",
         "id": 11,
         "name": "Visual Studio Code",
         "Beschreibung": "Ein leistungsfähiger Code-Editor",
@@ -104,6 +108,7 @@
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
     },
     {
+        "category": "Coding",
         "id": 12,
         "name": "Node.js",
         "Beschreibung": "Eine JavaScript-Laufzeitumgebung",
@@ -112,6 +117,7 @@
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png"
     },
     {
+        "category": "Coding",
         "id": 13,
         "name": "Python",
         "Beschreibung": "Eine populäre Programmiersprache",
@@ -120,6 +126,7 @@
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
     },
     {
+        "category": "Coding",
         "id": 14,
         "name": "Apache Server",
         "Beschreibung": "Eine weit verbreitete Webserver-Software",
@@ -128,6 +135,7 @@
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Apache_HTTP_server_logo_%282019-present%29.svg/2560px-Apache_HTTP_server_logo_%282019-present%29.svg.png"
     },
     {
+        "category": "Coding",
         "id": 15,
         "name": "MySQL",
         "Beschreibung": "Ein populäres relationales Datenbankmanagementsystem",
@@ -136,6 +144,3 @@
         "Image": "https://upload.wikimedia.org/wikipedia/de/thumb/d/dd/MySQL_logo.svg/2560px-MySQL_logo.svg.png"
     }
 ]
-
-
-
