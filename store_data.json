@@ -5,7 +5,7 @@
         "name": "Discord",
         "Beschreibung": ["Discord is a popular communication platform designed primarily for gamers, although its use has expanded to encompass various communities and interests beyond gaming. It provides users with a space to chat via text, voice, and video, as well as share media and participate in group activities such as gaming sessions, study groups, or hobby discussions."],
         "state": "apt-get",
-        "Install_Befehl": ["wget -O discord.deb 'https://discord.com/api/download?platform=linux&format=deb' -y", "sudo apt install ./discord.deb"],
+        "Install_Befehl": ['wget -O discord.deb "https://discord.com/api/download?platform=linux&format=deb" -y', 'sudo apt install ./discord.deb'],
         "Image": "https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" 
     },
     {
